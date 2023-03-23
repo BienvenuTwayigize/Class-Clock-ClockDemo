@@ -1,6 +1,4 @@
-
 package com.mycompany.mainclassclock;
-
 
 public class Clock {
     private int hours;
@@ -103,6 +101,4 @@ public class Clock {
     public String toString() {
         return String.format("(%02d:%02d:%02d)", hours, minutes, seconds);
 }
-
 }
-
